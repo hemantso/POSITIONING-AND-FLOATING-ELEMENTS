@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#navcontainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  border-bottom: 1px solid lightgray;
+}
+#left {
+  display: flex;
+}
+#left button{
+  margin-right: 15px;
+  margin-left: 9px;
+  background-color: white;
+  color: black;
+  border: none;
+}
+#logo {
+  font-weight: 700;
+}
+#center img {
+  margin-top: 7px;
+}
+#right {
+  margin-right: 13px;
+}
+#right button {
+    background-color: #567b95;
+    color: white;
+    height: 30px;
+    padding: 6px;
+    border: 1px solid #326891;
+    margin-right: 6px;
+    font-weight: 700;
+    border-radius: 4px;
+}
