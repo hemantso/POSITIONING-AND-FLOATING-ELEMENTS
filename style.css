@@ -76,5 +76,39 @@ main header h1 {
   color: #666;
 }
 .article-info {
-  display: grid;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    margin-top: 44px;
+    margin: 44px 108px 0 108px;
+}
+.article-author {
+  grid-area: 1/ 2;
+  color: rgb(49, 49, 49);
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.article-author a{
+  color: rgb(49, 49, 49);
+  font-weight: 700;
+}
+.article-option {
+  margin-top: 22px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 100;
+}
+.article-link {
+  margin-right: 29px;
+}
+.article-link i {
+    margin-right: 17px;
+    background-color: lightgrey;
+    border-radius: 13px;
+}
+.article-content {
+  grid-column: 2 / span 1;
+  padding-bottom: 1.5rem;
+    font-size: 1.4rem;
+    font-family: imperial;
+    color: rgb(51, 51, 51);
 }
