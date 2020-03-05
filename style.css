@@ -53,7 +53,6 @@ main header h1 {
   font-size: 2.5rem;
   font-family: cheltenham;
   font-style: italic;
-  word-break: break-word;
   padding: 45px 30.5rem 0rem 23rem;
   margin-bottom: 10px;
   
@@ -108,7 +107,123 @@ main header h1 {
 .article-content {
   grid-column: 2 / span 1;
   padding-bottom: 1.5rem;
-    font-size: 1.4rem;
-    font-family: imperial;
+  font-size: 1.3rem;
+  font-family: imperial;
+  color: rgb(51, 51, 51);
+  line-height: 29px;
+}
+.account {
+  grid-column: 2 / span 1;
+  display: inline-grid;
+  justify-content: center;
+  margin-bottom: 42px;
+  margin-top: 17px;
+  font-size: 1rem;
+  font-family: franklin;
+  font-weight: 600;
+  color: rgb(51, 51, 51);
+}
+.account a {
+  color: rgb(50, 104, 145);
+  text-decoration: none;
+  margin-left: 15px;
+}
+.editor-pick {
+  margin-left: 117px;
+  width: 69%;
+}
+.figure-img {
+  margin-top: 18px;
+}
+.editor-pick h4 {
+  border-bottom: 1px solid rgb(182, 182, 182);
+  padding-bottom: 7px;
+  font-size: 15px;
+}
+.editor-pick figure {
+  display: grid;
+    align-items: center;
+    padding-bottom: 14px;
+    gap: 1rem;
+    grid-template-columns: auto auto;
+}
+.editor-pick img{
+  width: 75px;
+}
+.editor-pick figcaption a {
+  font-size: 12px;
+    font-family: cheltenham;
     color: rgb(51, 51, 51);
+    text-decoration: none;
+    font-weight: 600;
+}
+#article-container {
+  display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+}
+#article-contain {
+  grid-column: 2/ span1;
+  width: 79%;
+  margin-left: 60px;
+}
+.paragraph-title {
+  font-size: 20px;
+    line-height: 30px;
+    color: #333333;
+    font-weight: 700;
+    font-family: 'Vollkorn';
+}
+.gray {
+  font-size: 15px;
+    font-family: 'Vollkorn';
+    color: #666666;
+    line-height: 21px;
+    max-width: 815px;
+    margin-top: 10px;
+    margin-bottom: 11px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 249px);
+  grid-gap: 15px;
+  width: 945px;
+}
+
+.grid-container div {
+  justify-self: center;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 17px;
+}
+
+.grid-container div img {
+  width: 230px;
+  height: 120px;
+}
+
+.grid-container div p span {
+  font-size: 11px;
+  font-weight: bolder;
+}
+
+.grid-container div p {
+  font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: #333333;
+}
+
+article hr {
+  margin-right: 95%;
+}
+
+#article-author {
+  font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    border-top: 1.5px solid #333333;
+    padding-top: 10px;
+    margin-top: 42px;
+}
+.image-section img {
+  width: 600px;
+  height: 400px;
 }
