@@ -4,11 +4,14 @@
 
 ![screenshot](./images/Screenshot.png)
 
-Use of Grid and Flex in CSS. Postioning and floating of elements make this site more beautiful.
+Use of Grid and Flex in Designing. Postioning and floating of elements to make this site.
 
 ## Built With
 
-- HTML, CSS.
+- HTML, CSS
+- Grid system layout
+
+
 ## Live Demo
 
 [Live Demo Link](https://rawcdn.githack.com/hemant-soni-vst-au4/POSITIONING-AND-FLOATING-ELEMENTS/27ca2882ab7714b584ccf9ceffb28536c2d9a17c/index.html)
