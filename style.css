@@ -65,8 +65,7 @@ nav {
 
 .footer-logo img {
   max-width: 200px;
-  margin-left: 50px;
-  margin-top: 10px;
+  margin-left: 36px;
 }
 
 .pre-footer-left-container div img {
@@ -110,8 +109,7 @@ main header h1 {
   margin-bottom: 16px;
   margin-left: 378px;
   color: #121212;
-  font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
-  font-style: italic;
+  font-family: nyt-cheltenham, georgia, 'times new roman', serif;
   width: 488px;
   line-height: 50px;
 }
@@ -287,7 +285,9 @@ article hr {
 }
 
 .subscribe-list p {
-  margin-left: 10px;
+  margin-left: 28px;
+  margin-top: -19px;
+  font-size: 15px;
 }
 
 .pre-footer-main-container p {
@@ -348,6 +348,12 @@ article hr {
   clear: both;
   margin: 1% 3% 0;
   column-gap: 30px;
+}
+.pre-footer-main-container small {
+  color: #999;
+    font-size: 10px;
+    justify-content: right;
+    display: grid;
 }
 
 .pre-footer-left-container {
@@ -416,7 +422,6 @@ article hr {
   justify-content: space-between;
   align-items: center;
   margin: 12px auto;
-  border-top: 2px solid #e2e2e2;
 }
 
 .homepage-link {
@@ -429,25 +434,35 @@ article hr {
 
 .menu-title {
   font-family: 'Open Sans', sans-serif;
-  font-size: 13px;
-  line-height: 15px;
+  font-size: 12px;
+  line-height: 16px;
   color: #333;
-  margin-bottom: 13px;
+  margin-bottom: 7px;
+  font-weight: bolder;
 }
 
 .categories-menu {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   margin-top: 16px;
 }
 
+.categories-menu ul .menu-title {
+  font-weight: bolder;
+}
+
 .categories-menu li {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  line-height: 16px;
   color: #000;
-  list-style-type: none;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  text-transform: capitalize;
+  width: 150px;
+  font-size: 14px;
+  font-weight: 500;
+  height: 23px;
+  line-height: 16px;
+  list-style: none;
 }
 
 .corporate li {
@@ -472,10 +487,11 @@ article hr {
   font-family: 'Open Sans', sans-serif;
   font-size: 13px;
   line-height: 15px;
-  font-weight: 600;
+  font-weight: bolder;
   color: #000;
-  display: flex;
-  padding: 13px 0 18px 39px;
+  display: flow-root;
+  padding: 13px 0 19px 14px;
+  width: 100%;
 }
 
 .categories-menu li:hover {
@@ -493,7 +509,7 @@ article hr {
 }
 
 .footer-sidebar h2 {
-  padding-left: 37px;
+  padding-left: 15px;
 }
 
 .subscribe-list {
@@ -509,17 +525,55 @@ article hr {
 }
 
 .corporate {
-  padding: 24px 0 16px 41px;
+  padding: 24px 0 16px 19px;
 }
 
 .terms {
   border-top: 1px solid #ededed;
   margin: 0 auto;
 }
-
+.terms li:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
 .corporate-info {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   margin: 10px 0 17px 0;
+}
+
+.foot {
+  border-top: 2px solid #e2e2e2;
+}
+
+.footer-container {
+  width: 85%;
+  margin-top: 47px;
+  border-top: 5px solid #e2e2e2;
+  margin-left: 94px;
+  margin-bottom: 71px;
+}
+.footer-end {
+  align-items: center;
+    justify-content: center;
+    position: fixed;
+    display: flex;
+    height: 56px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-family: franklin;
+    background-color: #fff;
+    border-top: 1px solid black;
+}
+.footer-end a {
+  font-size: 1.1rem;
+    text-decoration: none;
+    color: #000;
+}
+.footer-end-right {
+  margin-left: 275px;
+  margin-right: -250px;
+  font-weight: 600;
 }
