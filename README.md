@@ -14,7 +14,7 @@ Use of Grid and Flex in Designing. Postioning and floating of elements to make t
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/hemant-soni-vst-au4/POSITIONING-AND-FLOATING-ELEMENTS/27ca2882ab7714b584ccf9ceffb28536c2d9a17c/index.html)
+[Live Demo Link](https://rawcdn.githack.com/hemant-soni-vst-au4/POSITIONING-AND-FLOATING-ELEMENTS/02a41791ed44775bc13f795fac730f7145dbec6a/index.html)
 
 ## Authors
 
