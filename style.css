@@ -75,7 +75,7 @@ nav {
 }
 
 .grid-container div img {
-  width: 230px;
+  width: 218px;
   height: 120px;
 }
 
@@ -108,16 +108,18 @@ main header h1 {
   font-style: italic;
   font-weight: 700;
   margin-bottom: 16px;
-  margin-left: 291px;
-  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 378px;
+  color: #121212;
+  font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+  font-style: italic;
   width: 488px;
   line-height: 50px;
 }
 
 .main-img {
-  max-width: 65%;
+  max-width: 71%;
   height: auto;
-  margin-left: 234px;
+  margin-left: 185px;
   color: #666;
 }
 
@@ -262,12 +264,11 @@ article hr {
 }
 
 .gray {
-  font-size: 15px;
+  font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
   color: #666;
   line-height: 21px;
-  max-width: 815px;
-  margin-top: 10px;
+  max-width: 940px;
   margin-bottom: 11px;
 }
 
